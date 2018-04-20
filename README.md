@@ -10,7 +10,7 @@ require_once 'vendor/autoload.php';
 
 use Twitter\CountFollowers;
 
-$twitter = new CountFollowers('Fiesp');
+$twitter = new CountFollowers('Your Account Name');
 $total = $twitter->getTotal();
 var_dump($total);
 ```
