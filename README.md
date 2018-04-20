@@ -13,4 +13,5 @@ use Twitter\CountFollowers;
 $twitter = new CountFollowers('Your Account Name');
 $total = $twitter->getTotal();
 var_dump($total);
+echo $total['total'];
 ```
